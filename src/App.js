@@ -1,9 +1,10 @@
 import { HomePage } from './Pages/index'
 import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-} from 'react-router-dom'
+HashRouter as Router,
+Routes,
+Route,
+}
+  from "react-router-dom";
 function App() {
   return (
     <Router>
