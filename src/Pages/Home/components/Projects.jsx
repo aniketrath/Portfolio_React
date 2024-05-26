@@ -17,7 +17,9 @@ const CarouselComp = ({ image, text }) => {
         if (link === "Login.Ui") {
             window.open('https://github.com/aniketrath/Login.uI', '_blank');
         }
-
+        if (link === "Health Monitoring") {
+            window.open('https://github.com/aniketrath/HealthMonitoring', '_blank');
+        }
     };
     return (
         <Box
