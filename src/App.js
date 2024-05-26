@@ -1,7 +1,16 @@
 import { HomePage } from './Pages/index'
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from 'react-router-dom'
 function App() {
   return (
-    <HomePage />
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+      </Routes>
+    </Router>
   );
 }
 
